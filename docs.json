@@ -30,7 +30,6 @@
           {
             "group": "Getting started",
             "pages": [
-              "guides/getting-started/frequently-asked-questions",
               "index",
               "quickstart",
               "development"
