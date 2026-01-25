@@ -30,6 +30,7 @@
           {
             "group": "Getting started",
             "pages": [
+              "guides/getting-started/frequently-asked-questions",
               "index",
               "quickstart",
               "development"
@@ -38,8 +39,7 @@
           {
             "group": "Plugins",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "guides/plugins/infractions"
             ]
           },
           {
@@ -85,7 +85,7 @@
   },
   "logo": {
     "light": "/logo/dark.svg",
-    "dark": "/logo/bloom.png"
+    "dark": "/logo/swiftlogo.png"
   },
   "navbar": {
     "links": [
