@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "aspen",
   "name": "Swift",
   "colors": {
     "primary": "#ffae42",
