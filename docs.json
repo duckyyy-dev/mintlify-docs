@@ -117,5 +117,12 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "errors": {
+    "404": {
+      "redirect": true,
+      "title": "Swift Support",
+      "description": "Whoops! The page you are looking for doesn't exist on our documentation."
+    }
   }
 }
