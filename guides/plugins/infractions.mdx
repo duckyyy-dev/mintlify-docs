@@ -3,7 +3,7 @@ title: "Infractions"
 description: "A practical tool for documenting staff rule violations. "
 ---
 
-> Use the **Infractions **module to track staff rule violations efficiently and keep all logs centralized in one place.
+> Use the **Infractions** module to track staff rule violations efficiently and keep all logs centralized in one place.
 
 | **Type**                    | **Action**                                                            |
 | :-------------------------- | :-------------------------------------------------------------------- |
@@ -22,3 +22,39 @@ description: "A practical tool for documenting staff rule violations. "
 </Accordion>
 
 ## Options
+
+These options control where infractions are logged, how users are notified, and how infractions are categorized.
+
+| **Option**         | **Description**                                                     |
+| :----------------- | :------------------------------------------------------------------ |
+| Infraction Channel | The channel where infracted staff members are notified.             |
+| Audit Log Channel  | The channel where administrators can review infraction logs.        |
+| Types              | Custom infraction types that define available actions.              |
+| Reasons            | Predefined reasons that can be selected when issuing an infraction. |
+
+### Configuration
+
+<Accordion title="Infraction Approval">
+  Requires administrators or designated roles to approve or deny infractions before they are finalized.\
+  Approvals and denials take place in a predefined review channel.
+</Accordion>
+
+<Accordion title="Preferences">
+  - **Infraction User Button**: Displays _Issued by [User]_ beneath the infraction embed
+  - **Notify on Void**: Notifies the staff member when their infraction is voided
+  - **Show Issuer**: Hides the issuer from the infraction embed
+    - Does not affect `/infractions`
+    - Does not apply to customized embeds
+  - **Infraction Confirmation**: Enables confirmation prompts before issuing infractions
+  - **Direct Messages**: Sends infractions directly to staff members via direct messages
+</Accordion>
+
+<Accordion title="Customization">
+  Allows full customization of the infraction embed, including text, fields, and layout to your liking.
+</Accordion>
+
+<Accordion title="Preset Reasons">
+  Create a list of predefined reasons that can be selected when issuing an infraction.
+</Accordion>
+
+## [**​**](https://docs.astrobirb.dev/modules/infractions#configuration)
