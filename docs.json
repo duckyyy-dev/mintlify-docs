@@ -88,7 +88,7 @@
   },
   "errors": {
     "404": {
-      "redirect": true,
+      "redirect": false,
       "title": "Swift Support",
       "description": "Whoops! The page you are looking for doesn't exist on our documentation."
     }
