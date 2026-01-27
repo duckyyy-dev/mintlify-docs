@@ -54,6 +54,105 @@ Configure which roles can access specific bot features and commands.
 | **Admin**  | Can create and modify entries    | Create, edit, delete            |
 | **Manage** | Full administrative access       | All permissions + configuration |
 
-<Note>
-  **Need help with permissions? **Join our [**community.**](https://discord.gg/CYczCWdmyv)
-</Note>
+## **Credentials**
+
+Set up external API integrations and service credentials.
+
+### [**​**](https://docs.swiftbot.site/configuration#required-credentials)
+
+**Required Credentials**
+
+## **ERLC API Key**
+
+**Required for:** Game integration, player data, moderation**How to obtain:**
+
+1. Visit the ER:LC Developer Portal
+2. Generate an API key for your server
+3. Add the key in `/config` → **Credentials** → **ERLC API**
+
+### [**​**](https://docs.swiftbot.site/configuration#optional-integrations)
+
+**Optional Integrations**
+
+- **Google API** - For enhanced location services
+- **Designify API** - For image processing features
+- **Custom Webhooks** - For external logging
+
+---
+
+## [**​**](https://docs.swiftbot.site/configuration#bot-settings)
+
+**Bot Settings**Customize Swift’s behavior and appearance in your server.
+
+### [**​**](https://docs.swiftbot.site/configuration#general-settings)
+
+**General Settings**
+
+## **Bot Nickname**
+
+Set a custom nickname for Swift in your server.
+
+## **Command Prefix**
+
+Configure alternative command prefixes (default: `/`)
+
+**Supported:** `?`, `$`, `!`, or custom
+
+## **Embed Color**
+
+Configure default embed color (default: `#e77948`)
+
+---
+
+## [**​**](https://docs.swiftbot.site/configuration#trusted-access)
+
+**Trusted Access**Configure administrative access and trusted user management.
+
+### [**​**](https://docs.swiftbot.site/configuration#access-levels)
+
+**Access Levels**
+
+| **Level**          | **Permissions**    | **Use Case**              |
+| :----------------- | :----------------- | :------------------------ |
+| **Extra Owner**    | Full bot access    | Server owner              |
+| **Trusted Admins** | Bot Administrative | Trusted community members |
+
+### [**​**](https://docs.swiftbot.site/configuration#adding-trusted-users)
+
+**Adding Trusted Users**
+
+1. Navigate to `/config` → **Trusted Access**
+2. Choose the access level
+3. Add or Remove users/role
+4. Confirm the changes
+
+### [**​**](https://docs.swiftbot.site/configuration#managing-access)
+
+**Managing Access**
+
+- **View Current Access:** See all trusted users and their levels
+- **Remove Access:** Revoke trusted status
+
+---
+
+## [**​**](https://docs.swiftbot.site/configuration#module-toggles)
+
+---
+
+## [**​**](https://docs.swiftbot.site/configuration#configuration-commands)**Configuration Commands**
+
+<Card title="/config" icon="gear">
+  Main configuration command to access all settings.
+
+  **Usage:** `/config`
+
+  **Permissions:** Requires Owner permission, Management Role, or Trusted Access
+</Card>
+
+---
+
+## **⚠️ Important Notes**
+
+<Warning>
+  **API Key Security:** Never share your ERLC API key publicly. Store it securely and rotate it regularly.
+</Warning>
