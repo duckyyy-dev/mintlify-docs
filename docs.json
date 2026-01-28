@@ -70,8 +70,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Invite Swift",
+      "href": "https://swift-bot.site"
     }
   },
   "contextual": {
